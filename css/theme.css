@@ -1,0 +1,53 @@
+/* Noto Serif google font link */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*inter google font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+:root{
+    --text-light: #fff;
+    --text-dark-1: #000000;
+    --text-dark-2: #111111;
+    --link-active: #252432; 
+    --link-color: #8987A1;
+    --text-primary: #E95A08;
+    --text-secondary: rgba(0, 0, 0, 0.5);
+    --bg-primary: #E95A08;
+
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    padding: 30px 10px 0px 10px;
+}
+.section-title span{
+    color: var(--text-primary);
+}
+.section-title{
+    color: var(--text-dark-1);
+    font-size: 3.125rem;
+    text-align: center;
+    margin: 120px 0px  16px;
+}
+.flower-promo-txt{
+    font-size: 1.375rem;
+    color: var(--text-secondary);
+}
+.text-center{
+    text-align: center;
+}
