@@ -53,6 +53,15 @@
 .text-center{
     text-align: center;
 }
+.card-btn{
+    width: 270px;
+    height: 50px;
+    background-color: var(--bg-primary);
+    text-align: center;
+    color: var(--text-light);
+    border: none;
+    font-weight: 600;
+}
 /* =============  Responsive design =============*/
 
 
