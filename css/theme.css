@@ -279,6 +279,32 @@
     .discount-info-25 a{
         font-size: 1rem;
     }
+    /* =========== news letter ============= */
+    .news-letter{
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 10px;
+        background-position: center;
+    }
+    .news-letter-content{
+        padding: 0px 16px;
+        height: 40vh;
+    }
+    .news-letter-title{
+        font-size: 1.25rem;
+        color: #fff;
+        margin-bottom: 23px;
+    }
+    .email-field{
+        width: 198px;
+        height: 50px;
+        padding: 20px 8px;
+    }
+    .news-btn{
+        width: 98px;
+        height: 51px;
+        margin-left: -5px;
+    }
 
 }
 
@@ -485,6 +511,30 @@
     .discount-info-25 a{
         font-size: 1rem;
     }
+    /* =========== news letter ============= */
+    .news-letter{
+        margin-top: 10px;
+        background-position: center;
+    }
+    .news-letter-content{
+        padding: 0px 16px;
+        height: 40vh;
+    }
+    .news-letter-title{
+        font-size: 1.8rem;
+        color: #fff;
+        margin-bottom: 23px;
+    }
+    .email-field{
+        width: 440px;
+        height: 50px;
+        padding: 20px 8px;
+    }
+    .news-btn{
+        width: 103px;
+        height: 51px;
+        margin-left: -5px;
+    }
 }
 
 /*----- Large devices (desktops, 992px ) ---------*/
@@ -618,6 +668,25 @@
     }
     .discount-info-25 a{
         font-size: 1.25rem;
+    }
+    /* =========== news letter ============= */
+    .news-letter{
+        margin-top: 10px;
+        background-position: center;
+    }
+    .news-letter-content{
+        padding: 0px 16px;
+        height: 40vh;
+    }
+    .email-field{
+        width: 440px;
+        height: 50px;
+        padding: 20px 8px;
+    }
+    .news-btn{
+        width: 120px;
+        height: 51px;
+        margin-left: -5px;
     }
 }
 

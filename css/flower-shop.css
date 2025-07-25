@@ -234,3 +234,59 @@
     color: var(--text-light);
 }
 /* --------------- latest deals style end here --------------- */
+/* --------------- news letter style start here --------------- */
+.news-letter{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-letter-content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news-letter-title{
+    font-size: 3.125rem;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+.email-field{
+    width: 644px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 29px 8px;
+    font-size: 1rem;
+    background: var(--text-light);
+    transition: outline .3s ease-in;
+}
+.email-field:focus{
+    outline: 2px solid #E95A08;
+}
+.email-field:focus::placeholder{
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
+.news-btn{
+    width: 186px;
+    height: 58px;
+    border: none;
+    outline: none;
+    background: #E95A08;
+    /* padding: 29px 8px; */
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-left: -4px;
+    cursor: pointer;
+    transition: background .3s ease-in;
+}
+.news-btn:hover{
+    background: #ec6d23;
+}
+/* --------------- news letter style end here --------------- */
