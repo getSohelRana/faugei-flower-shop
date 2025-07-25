@@ -150,9 +150,10 @@
 .discount-30 img,
 .discount-60 img{
     width: 367px;
-    height: 200px;
+    height: 206px;
     object-fit: cover;
     border-radius: 22px;
+    display: block;
 }
 .discount-25,
 .discount-30,
@@ -162,7 +163,7 @@
 .discount-30,
 .discount-60{
     width: 367px;
-    height: 200px;
+    height: 206px;
     border-radius: 22px;
 }
 .discount-30::after,
@@ -172,7 +173,7 @@
     top: 0;
     left: 0;
     width: 367px;
-    height: 200px;
+    height: 206px;
     border-radius: 22px;
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -200,9 +201,10 @@
 }
 .discount-25 img{
     width: 753px;
-    height: 429px;
+    height: 440px;
     object-fit: cover;
     border-radius: 22px;
+    display: block;
 }
 
 .discount-25::before{
@@ -211,7 +213,7 @@
     top: 0;
     left: 0;
     width: 753px;
-    height: 429px;
+    height: 440px;
     border-radius: 22px;
     background-color: rgba(0, 0, 0, 0.4);
 }
