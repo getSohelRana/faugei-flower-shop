@@ -75,7 +75,7 @@
 .our-plants-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 15px;
 }
 .card{
     width: 270px;
@@ -290,3 +290,37 @@
     background: #ec6d23;
 }
 /* --------------- news letter style end here --------------- */
+/* --------------- footer area style start here --------------- */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-tagline{
+    max-width: 359px;
+    margin-top: 16px;
+}
+.footer-links li{
+    list-style-type: none;
+    margin-bottom: 32px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: 500;
+    transition: color .3s ease-in;
+}
+.footer-links a:hover{
+    color: var(--link-active);
+}
+.footer-social{
+    display: flex;
+    gap: 24px;
+}
+.footer-social li{
+   list-style-type: none;
+   width: 36px;
+   height: 36px;
+   line-height: 36px;
+}
+/* --------------- footer area style end here --------------- */

@@ -305,6 +305,17 @@
         height: 51px;
         margin-left: -5px;
     }
+    /*----------- footer area------- */
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .footer-tagline{
+        max-width: 359px;
+        margin: 16px 0px;
+    }
 
 }
 
@@ -535,6 +546,17 @@
         height: 51px;
         margin-left: -5px;
     }
+    /* -----------footer area ------------ */
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .footer-tagline{
+        max-width: 359px;
+        margin: 16px 0px;
+    }
 }
 
 /*----- Large devices (desktops, 992px ) ---------*/
@@ -687,6 +709,21 @@
         width: 120px;
         height: 51px;
         margin-left: -5px;
+    }
+    /* -----------footer area ------------ */
+    .footer-content{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .footer-tagline{
+        max-width: 250px;
+        margin: 16px 0px;
+    }
+    .footer-social{
+        display: flex;
+        gap: 15px;
     }
 }
 
