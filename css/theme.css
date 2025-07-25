@@ -211,7 +211,7 @@
     }
     .discount-30 img,
     .discount-60 img{
-        max-width: calc(200px -32px)!important;
+        width: 320px;
         height: 200px;
         object-fit: cover;
         border-radius: 22px;
@@ -223,7 +223,7 @@
     }
     .discount-30,
     .discount-60{
-         max-width: calc(200px -32px)!important;
+        width: 320px;
         height: 200px;
         border-radius: 22px;
     }
@@ -233,7 +233,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: calc(200px -32px)!important;
+        width: 320px;
         height: 200px;
         border-radius: 22px;
         background-color: rgba(0, 0, 0, 0.4);
@@ -249,7 +249,7 @@
         z-index: 2;
     }
     .discount-25 img{
-        max-width: calc(400px - 32px);
+        width: 320px;
         height: 200px;
         object-fit: cover;
         border-radius: 22px;
@@ -259,7 +259,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width:  calc(400px - 32px);
+        width:  320px;
         height: 200px;
         border-radius: 22px;
         background-color: rgba(0, 0, 0, 0.4);
@@ -267,8 +267,8 @@
     .discount-info-25 {
         position: absolute; 
         top: 50%;
-        left: 40%;
-        transform: translate(-20% , -50%);
+        left: 30%;
+        transform: translate(-15% , -50%);
         color: #fff;
         text-align: center;
     }
