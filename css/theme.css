@@ -50,6 +50,11 @@
     color: var(--text-secondary);
     font-family: var(--font-secondary);
 }
+.title-description{
+    max-width: 888px;
+    margin: auto;
+    margin-bottom: 50px;
+}
 .text-center{
     text-align: center;
 }
@@ -72,7 +77,7 @@
 
 
 
-/*----- Small devices (landscape phones, 576px and up) ---------*/
+/*----- Small devices (landscape phones, 576px ) ---------*/
 @media screen and (max-width: 575px) { 
     .container{
         padding: 10px 16px 28px 16px;
@@ -179,10 +184,105 @@
         margin: 14px 0px;
         font-size: 0.875rem;
     }
+    /* =============latest deals===================== */
+    .discount-banner{
+        margin-top: 52px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-self: center;
+    }
+      .discount-60{
+        grid-row:  1;
+    }
+    .discount-30{
+        grid-row:  2;
+    }
+    .discount-25{
+        grid-row:  3;
+    }
+    .section-title{
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .title-description{
+        font-size: 0.875rem;
+        margin-top: 16px;
+    }
+    .discount-30 img,
+    .discount-60 img{
+        max-width: calc(200px -32px)!important;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 22px;
+    }
+    .discount-25,
+    .discount-30,
+    .discount-60{
+        position: relative;
+    }
+    .discount-30,
+    .discount-60{
+         max-width: calc(200px -32px)!important;
+        height: 200px;
+        border-radius: 22px;
+    }
+    .discount-30::after,
+    .discount-60::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(200px -32px)!important;
+        height: 200px;
+        border-radius: 22px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .discount-info-30,
+    .discount-info-60{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-15%, -50%);
+        color: #fff;
+        text-align: center;
+        z-index: 2;
+    }
+    .discount-25 img{
+        max-width: calc(400px - 32px);
+        height: 200px;
+        object-fit: cover;
+        border-radius: 22px;
+    }
+    .discount-25::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:  calc(400px - 32px);
+        height: 200px;
+        border-radius: 22px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .discount-info-25 {
+        position: absolute; 
+        top: 50%;
+        left: 40%;
+        transform: translate(-20% , -50%);
+        color: #fff;
+        text-align: center;
+    }
+    .discount-info-25 h1{
+        font-size: 1.25rem;
+        margin-bottom: 19px;
+    }
+    .discount-info-25 a{
+        font-size: 1rem;
+    }
 
 }
 
-/*----- Medium devices (tablets, 768px and up) ---------*/
+/*----- Medium devices (tablets, 768px ) ---------*/
 @media screen and (min-width: 575.99px) and (max-width: 768px) { 
     .container{
         padding: 5px 16px 28px 16px;
@@ -288,10 +388,106 @@
         margin: 20px 0px;
         font-size: 1rem;
     }
-
+    /* =================latest deals ================*/
+    .discount-banner{
+        margin-top: 52px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-self: center;
+    }
+      .discount-60{
+        grid-row:  1;
+    }
+    .discount-30{
+        grid-row:  2;
+    }
+    .discount-25{
+        grid-row:  3;
+    }
+    .section-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .title-description{
+        font-size: 0.875rem;
+        margin-top: 19px;
+    }
+    .discount-30 img,
+    .discount-60 img{
+        width: 500px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 22px;
+    }
+    .discount-25,
+    .discount-30,
+    .discount-60{
+        position: relative;
+    }
+    .discount-30,
+    .discount-60{
+        width: 500px;
+        height: 250px;
+        border-radius: 22px;
+    }
+    .discount-30::after,
+    .discount-60::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 500px;
+        height: 250px;
+        border-radius: 22px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .discount-info-30,
+    .discount-info-60{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+        z-index: 2;
+    }
+    .discount-25 img{
+        width: 500px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 22px;
+    }
+    .discount-25::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:  500px;
+        height: 250px;
+        border-radius: 22px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .discount-info-25 {
+        position: absolute; 
+        top: 50%;
+        left: 40%;
+        transform: translate(-20%, -50%);
+        color: #fff;
+        text-align: center;
+    }
+    .discount-info-25 h1,
+    .discount-info-30 h1,
+    .discount-info-60 h1{
+        font-size: 1.5rem;
+        margin-bottom: 19px;
+    }
+    .discount-info-25 a{
+        font-size: 1rem;
+    }
 }
 
-/*----- Large devices (desktops, 992px and up) ---------*/
+/*----- Large devices (desktops, 992px ) ---------*/
 @media screen and  (min-width: 768.99px) and (max-width: 992px) {
     .container{
         padding: 30px 16px 30px;
@@ -394,7 +590,7 @@
     
 }
 
-/*----- X-Large devices (large desktops, 1200px and up) ---------*/
+/*----- X-Large devices (large desktops, 1140px ) ---------*/
 @media screen and (min-width: 992.99px) and (max-width: 1140px) { 
     .container{
         padding: 30px 16px 30px;
